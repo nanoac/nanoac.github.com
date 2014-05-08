@@ -4,15 +4,15 @@
 
 # Site
 title: 曹楠志
-subtitle: 曹楠志 | Anyone has a blog has a mind
+subtitle: Anyone has a blog has a mind
 description: 曹楠的志
 author: Nan Cao
 email: nanoac@gmail.com
-language: 
+language: chinese
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://blog.caonan.me
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -101,4 +101,7 @@ stylus:
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: github
+  repo: git@github.com:nanoac/nanoac.github.io.git
+  branch: master
+  message: "Site updated:)"
