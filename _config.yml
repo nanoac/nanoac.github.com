@@ -3,12 +3,12 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: 曹楠志
-subtitle: 曹楠志 | Anyone has a blog has a mind
-description: 曹楠的志
-author: Nan Cao
-email: nanoac@gmail.com
-language: 
+title: Hexo
+subtitle:
+description:
+author: John Doe
+email:
+language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -80,7 +80,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: pacman
+theme: landscape
 exclude_generator:
 
 # Markdown
