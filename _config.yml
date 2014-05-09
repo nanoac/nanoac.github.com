@@ -8,12 +8,12 @@ subtitle: Anyone has a blog has a mind
 description: 曹楠的志
 author: Nan Cao
 email: nanoac@gmail.com
-language: chinese, english
+language: zh-CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.caonan.me
-root: /
+url: http://caonan.me/blog
+root: /blog/
 permalink: :year/:month/:day/:title/
 tag_dir: tags
 archive_dir: archives
@@ -38,7 +38,7 @@ post_asset_folder: false
 highlight:
   enable: true
   line_number: true
-  tab_replace:
+  tab_replace: 
 
 # Category & Tag
 default_category: uncategorized
@@ -104,4 +104,4 @@ deploy:
   type: github
   repo: git@github.com:nanoac/nanoac.github.io.git
   branch: master
-  message: "Site updated:)"
+  message: "Site updated :)"
